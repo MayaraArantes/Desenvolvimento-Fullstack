@@ -1,0 +1,40 @@
+h1 {
+  color: darkmagenta;
+}
+
+h2 {
+  color: blue;
+}
+
+.tituloTomato {
+  color: tomato;
+}
+
+#tituloMarrom {
+  color: maroon;
+}
+
+main {
+  border: solid 2px red;
+}
+
+.corLaranja {
+  background-color: orange;
+}
+
+.corAzul {
+  background-color: blue;
+}
+
+article {
+  background-color: aqua;
+}
+article figure {
+  border: 3px solid blue;
+}
+article figure img {
+  width: 200px;
+}
+article figure img figcaption {
+  color: darkmagenta;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    border: solid blue;
+    height: 12vh; //altura
+    display: flex; //alinha em linha
+    list-style: none; //tira os pontinhos 
+
+    // justify-content -> atua no espaçamento e 
+    // posicionamento das informações na horizontal.
+    // flex-start -> posiciona os itens na esquerda na horizontal
+    // center -> posiciona os itens no centro na horizontal
+    // flex-end -> posiciona os itens na direita na horizontal
+
+    justify-content: space-evenly;
+    // - Space Evenly: Espaço igual entre os itens e nas bordas.
+    // - Space Around: Espaço igual ao redor, com metade nas bordas.
+    // - Space Between: Espaço igual entre os itens, sem nas bordas.
+
+
+    // align-items -> atua no posicionamento 
+    // das informações na vertical.
+
+    align-items: center;
+    // flex-start -> Posiciona as informações no topo da caixa
+    // center -> Posiciona as informações no centro da caixa
+    // flex-end -> Posiciona as informações ao final da caixa
+}
+
+li {
+    background-color: aquamarine;
+    margin-bottom: 5px; // usar margin apenas para minimos detalhes
+}
+
+img {
+    width: 05vw;
+    // viewport width -> largura da viewport
+    // vh -> viewport height -> altura da viewport
+
+}
+
+
+// display:flex; -> ele é mais uma das propriedades
+// de posicionamento e espaçamento  do CSS
+// junto a ele nós ganhamos uma quantidade muito grande
+// de propriedades e valores de espaçamento de forma
+// totalmente flexível, sem ocorrer o risco de quebrar
+// nossa página.
+
+main {
+    border: solid purple 5px;
+    height: 60vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.nome {
+    align-items:flex-start;
+}

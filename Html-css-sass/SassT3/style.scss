@@ -1,0 +1,50 @@
+// Seletor de Elemento/Tag - é quando usamos a própria tag como seletor
+
+h1 {
+  color: darkmagenta;
+}
+
+h2 {
+  color: blue;
+}
+
+// Seletor de Classe - class (.)
+
+.tituloTomato {
+  color: tomato;
+}
+
+// Seletor de ID - (#)
+#tituloMarrom {
+  color: maroon;
+}
+
+main {
+  border: solid 2px red;
+}
+
+.corLaranja {
+  background-color: orange;
+}
+
+.corAzul {
+  background-color: blue;
+}
+
+//Nesting - Aninhamento
+//usar no maximo 3
+article {
+  background-color: aqua;
+
+  figure {
+    border: 3px solid blue;
+
+    img {
+      width: 200px;
+
+      figcaption {
+        color: darkmagenta;
+      }
+    }
+  }
+}

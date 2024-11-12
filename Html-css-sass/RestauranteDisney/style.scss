@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color:blanchedalmond;
+}
+header {
+  background-color: burlywood;
+  height: 90px;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color:saddlebrown;
+}
+
+img {
+  width: 400px;
+}
+
+figure {
+  margin-left: 500px;
+  margin-top: 20px;
+  border: solid 10px saddlebrown;
+  width: 418px;
+  background-color: saddlebrown;
+  color: burlywood;
+}

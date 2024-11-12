@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.explicacaoBoxSizing {
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+  border: solid rosybrown 30px;
+  padding: 20px;
+}
+
+.exemploElementoBlock {
+  border: solid 5px red;
+  width: 400px;
+  margin-bottom: 20px;
+  margin: 30px;
+}
+
+.exemploElementoInline {
+  border: solid 5px blue;
+  padding: 10px;
+  margin: 30px;
+}
+
+.exemploDisplayInlineBlock h2 {
+  background-color: crimson;
+  border: solid 5px black;
+  display: inline-block;
+  width: 200px;
+  padding-left: 40px;
+  margin: 30px;
+}
+
+.exemploRGB {
+  background-color: rgb(23, 55, 31);
+}
+
+.exemploHexadecimal {
+  background-color: #e300aa;
+}/*# sourceMappingURL=style.css.map */

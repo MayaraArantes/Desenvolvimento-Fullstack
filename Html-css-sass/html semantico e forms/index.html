@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Semantico, acessibilidade e Forms</title>
+</head>
+
+<body>
+  <header>
+    <img
+      src="https://cdn.iconscout.com/icon/free/png-256/free-avengers-logo-icon-download-in-svg-png-gif-file-formats--brand-pack-business-icons-7581629.png?f=webp&w=120"
+      alt="Logo dos Vingadores">
+    <nav>
+      <a href="">INICIO</a>
+      <a href="">SOBRE</a>
+      <a href="">CADASTRO</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre os Vingadores</h2>
+      <p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Tenetur at quasi mollitia, rem accusamus
+        possimus non reiciendis placeat! Similique quod a iste commodi,
+        accusantium dolorum veritatis eum cupiditate tenetur illum?</p>
+
+      <img src="https://www.pluggedin.com/wp-content/uploads/2019/12/the-avengers-review-image.jpg" alt="Banner com os personagens do filme os Vingadores.">
+    </section>
+
+    <section>
+      <h2>Alguns dos Personagens</h2>
+
+      <article>
+        <img src="./imgs/Homem De Ferro Filme.jpeg" alt="Imagem do homem de ferro">
+        <h3>Homem de Ferro</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+
+      <article>
+        <img src="./imgs/captain-america.jpg" alt="Imagem do Capitão America">
+        <h3>Capitão America</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+
+      <article>
+        <img src="./imgs/thor.jpeg" alt="Imagem do Thor">
+        <h3>Thor</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+    </section>
+
+
+    <section>
+      <h2>Meu Primeiro Formulario</h2>
+
+      <form action="">
+        <fieldset>
+          <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+          </fieldset>
+
+          <fieldset>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+          </fieldset>
+
+          <fieldset>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+          </fieldset>
+
+          <fieldset>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+          </fieldset>
+
+          <fieldset>
+            <label for=""> Qual é o melhor Vingador?</label>
+
+            <label for="homemFerro">Homem de Ferro</label>
+            <input type="radio" name="vingador" id="homemFerro" required>
+
+            <label for="capitaoAmerica">Capitão América</label>
+            <input type="radio" name="vingador" id="capitaoAmerica" required>
+          </fieldset>
+
+          <fieldset>
+            <label for="">Selecione quais filmes dos Vingadores voçê assistiu:</label>
+
+            <label for="primeiro">Os Vingadores:</label>
+            <input type="checkbox" name="primeiro" id="primeiro" required>
+
+
+            <label for="ultron">Era do Ultron:</label>
+            <input type="checkbox" name="ultron" id="ultron" required>
+
+
+            <label for="infinita">Guerra Infinita:</label>
+            <input type="checkbox" name="infinita" id="infinita" required>
+
+            <label for="ultimato">Ultimato:</label>
+            <input type="checkbox" name="ultimato" id="ultimato" required>
+
+            <label for="nenhum">Nenhum deles:</label>
+            <input type="checkbox" name="nenhum" id="nenhum" required>
+          </fieldset>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+<footer>
+  <p>Todos os direitos reservados ao Vai na Web - 2024</p>
+</footer>
+</body>
+</html>
