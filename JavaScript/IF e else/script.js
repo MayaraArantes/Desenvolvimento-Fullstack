@@ -1,4 +1,4 @@
-console.log("Hello World!!")
+console.log("IF e ELSE!!")
 
 let mesAtual = "Outubro" // Strings - Dados Textuais
 
@@ -12,17 +12,19 @@ console.log(primeiroNome)
 let inverno = false // Boolean - True ou False - Verdadeiro ou Falso
 
 
+
 // condição simples
 // if(condicao){
 
 // }
-
 
 let botaoAtivo = true;
 
 if (botaoAtivo) {
   console.log("Seu background ficou preto")
 }
+
+
 
 // condicao composta
 
