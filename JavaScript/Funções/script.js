@@ -3,7 +3,6 @@ console.log("Funções")
 // O que é uma função?? É um consunto de instruções que executa uma tarefa.
 
 //Estrutura
-
 // function nomeDaFunção(){
 //     codigo a ser executado
 // }
