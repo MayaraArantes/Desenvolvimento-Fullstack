@@ -19,6 +19,7 @@ export default function App() {
     //     <li><a href="">Contatos</a></li>
     //   </ul>
     // </nav>
+
     <BrowserRouter>
       <nav>
         <ul>
@@ -33,7 +34,6 @@ export default function App() {
           </li>
         </ul>
       </nav>
-
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/sobre" element={<Sobre />} />
